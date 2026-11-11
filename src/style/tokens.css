@@ -1,0 +1,18 @@
+:root {
+  /* Warna */
+  --bg: #0d0d0d;
+  --text: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.72);
+  --line: rgba(255, 255, 255, 0.12);
+  --button-text: #ffffff; /* font pada tombol gelap, termasuk kartu */
+  --button-bg: #ffffff; /* tombol putih */
+  --button-fg: #0d0d0d; /* font pada tombol putih */
+
+  /* Tipografi: Manrope, sama dengan Bleatz Web */
+  --font: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Tata letak */
+  --page-pad: max(1.5rem, calc((100vw - 64rem) / 2));
+  --radius-card: 1.25rem;
+  --radius-avatar: 1rem;
+}

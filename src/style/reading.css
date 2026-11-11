@@ -1,0 +1,54 @@
+.reading {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 40rem;
+  margin-inline: auto;
+  padding: 1.5rem 1.5rem 4rem;
+  animation: fade-in 0.6s ease both;
+}
+
+.reading__back {
+  align-self: flex-start;
+  padding-block: 0.5rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.reading__back:hover {
+  color: var(--text);
+}
+
+.reading__title {
+  font-size: clamp(2rem, 9vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.reading__body {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.reading__body p {
+  max-width: 65ch;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.button {
+  align-self: flex-start;
+  padding: 0.9rem 1.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--button-bg);
+  color: var(--button-fg);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}

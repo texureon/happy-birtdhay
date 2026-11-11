@@ -1,0 +1,31 @@
+.intro {
+  width: 100%;
+  max-width: calc(30rem + var(--page-pad));
+  padding-inline: var(--page-pad);
+  animation: fade-in 0.9s ease both;
+}
+
+.intro__who {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.intro__avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: var(--radius-avatar);
+  object-fit: cover;
+}
+
+.intro__name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.intro__message {
+  margin-top: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
